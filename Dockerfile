@@ -1,3 +1,3 @@
 FROM node:onbuild
 
-ENTRYPOINT [ "bin/nerdshow-run" ]
+ENTRYPOINT [ "bin/nerdshow-run", "--host", "0.0.0.0" ]

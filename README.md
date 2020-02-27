@@ -69,9 +69,10 @@ is served via https, this won't work.
 Usage: nerdshow path/to/presentation [options]
 
 Options:
-  --port          TCP port of web server        [default: "8008"]
-  --encoding, -e  character-set of stdin input  [default: "utf8"]
-  --debug         output for easier debugging   [default: false]
+  --host          TCP bind address of web server  [default: "localhost"]
+  --port          TCP port of web server          [default: "8008"]
+  --encoding, -e  character-set of stdin input    [default: "utf8"]
+  --debug         output for easier debugging     [default: false]
   --help, -h      show help and exit
 ```
 
